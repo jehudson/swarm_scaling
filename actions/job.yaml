@@ -1,7 +1,7 @@
 ---
 name: "job"
 pack: "swarm"
-runner_type: "run-python"
+runner_type: "python-script"
 description: "Run a dockerized job on swarm cluster."
 enabled: true
 entry_point: "job.py"
@@ -35,4 +35,3 @@ parameters:
         description: Memory limit in Bytes.
 
     # TODO: expand to all docker service commands
-
